@@ -1,7 +1,7 @@
 {
-  "name": "vue3-autocomplete",
+  "name": "vue3-autocomplete-form",
   "description": "vue3 autocomplete component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
