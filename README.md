@@ -4,7 +4,7 @@ vue3用の autocomplete コンポーネント
 
 ## インストール
 
-`npm i vue3-autocomplete`
+`npm i vue3-autocomplete-form`
 
 ## 使い方
 
