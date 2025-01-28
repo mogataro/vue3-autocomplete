@@ -59,7 +59,7 @@ const options = ref([
 
 ## 詳細はstorybookを確認してください
 
-<http://localhost:6006/?path=/docs/autocompleteform--docs>
+<https://mogataro.github.io/vue3-autocomplete/storybook-static/?path=/docs/autocompleteform--docs>
 
 入力値で選択肢が絞り込まれる。完全一致した選択肢が1つの場合は選択された状態になる。
 Enterキー、Tabキー、Escape、矢印キーで操作可能。
