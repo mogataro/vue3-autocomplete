@@ -7,7 +7,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   plugins: [
     vue(),
-    dts({ tsconfigPath: fileURLToPath(new URL('./tsconfig.app.json', import.meta.url)) })
+    dts({ tsconfigPath: fileURLToPath(new URL('./tsconfig.build.json', import.meta.url)) })
   ],
   server: {
     watch: { usePolling: true },
