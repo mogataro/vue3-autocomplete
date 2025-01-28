@@ -1,7 +1,7 @@
 {
   "name": "vue3-autocomplete",
   "description": "vue3 autocomplete component",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -42,7 +42,11 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tag": "git tag v$npm_package_version",
+    "version:patch": "npm --no-git-tag-version version patch",
+    "version:minor": "npm --no-git-tag-version version minor",
+    "version:major": "npm --no-git-tag-version version major"
   },
   "dependencies": {
     "vue": "^3.5.13"
