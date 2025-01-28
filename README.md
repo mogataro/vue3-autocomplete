@@ -14,7 +14,8 @@ deepセレクタを使用することで、好きなcssを当てられます。
 
 ```vue
 <script setup lang="ts">
-import AutocompleteForm from '@/components/AutocompleteForm.vue'
+import { AutocompleteForm } from 'vue3-autocomplete-form'
+import 'vue3-autocomplete-form/dist/index.css'
 import { ref } from 'vue'
 
 const value = ref(null)
@@ -57,7 +58,7 @@ const options = ref([
 </style>
 ```
 
-## 詳細はstorybookを確認してください
+## props, eventなどの詳細はstorybookを確認してください
 
 <https://mogataro.github.io/vue3-autocomplete/storybook-static/?path=/docs/autocompleteform--docs>
 
