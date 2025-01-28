@@ -25,6 +25,10 @@ const meta: Meta<typeof AutocompleteForm> = {
   parameters: {
     docs: {
       subtitle: 'オートコンプリート',
+      description: {
+        component:
+          '入力値で選択肢が絞り込まれる。完全一致した選択肢が1つの場合は選択された状態になる。<br />Enterキー、Tabキー、Escape、矢印キーで操作可能。<br /><br />Narrow down your choices by input value. If only one option matches exactly, it will be selected.<br />Can be operated with Enter key, Tab key, Escape, and arrow keys.',
+      },
     },
   },
   argTypes: {
